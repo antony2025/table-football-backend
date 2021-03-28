@@ -1,0 +1,20 @@
+{
+  "name": "table-football-backend",
+  "version": "1.0.0",
+  "description": "Table Football REST API",
+  "main": "app.js",
+  "author": "Antony",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "express": "4.17.1",
+    "express-validator": "6.10.0",
+    "mongoose": "5.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.7"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  }
+}
